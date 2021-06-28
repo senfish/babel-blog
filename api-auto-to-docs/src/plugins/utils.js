@@ -22,9 +22,7 @@ exports.resolveType = (tsType) => {
 
 exports.parseComments = (comments) => {
   if(!comments) return;
-  let content;
-  content = doctrine.parse(comments, {
+  return doctrine.parse(comments, {
     unwrap: true
   });
-  return content;
 }

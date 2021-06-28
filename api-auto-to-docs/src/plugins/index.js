@@ -34,6 +34,7 @@ const autoDocumentPlugin = declare((api, options, dirname) => {
       const res = generate(docs, options.format);
       const output = path.join(options.outputDir, 'docs.md');
       fs.writeFileSync(output, res, 'utf8');
+      console.info(`api文档生成成功${output}`)
     }
   }
 });

@@ -10,8 +10,11 @@ function generate(docs, format = 'markdown') {
       }
     });
     str += `
-### ${doc.name} \n
-#### ${doc.doc.description} \n| 参数    | 类型    | 描述   | \n| ---    | ---     | ---   | \n${paramsStr}\n`
+### ${doc.name}
+#### ${doc.doc.description}
+| 参数    | 类型    | 描述   |
+| ---    | ---     | ---   |
+${paramsStr}\n`
   });
   return str;
 }
