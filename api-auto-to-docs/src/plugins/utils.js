@@ -1,8 +1,6 @@
 const doctrine = require('doctrine');
 
-exports.resolveType = (tsType) => {
-  const typeAnnotation = tsType.typeAnnotation;
-  if (!typeAnnotation) return;
+exports.resolveType = (typeAnnotation) => {
   let type;
   switch (typeAnnotation.type) {
     case 'TSStringKeyword' :
@@ -14,6 +12,9 @@ exports.resolveType = (tsType) => {
     case 'TSBooleanKeyword' :
       type = 'boolean';
       break;
+    case 'TSObjectKeyword' :
+      type = 'object';
+      break
     default:
       type = 'string';
   }

@@ -18,7 +18,7 @@ Example:
  * @param {string} lastName 姓氏
  * @returns {string} 返回字符串
  */
- function getName(fristName: string, lastName: string) {
+ function getName(fristName: string, lastName: string): string {
   return lastName + fristName;
 }
 ```
@@ -27,7 +27,7 @@ Example:
 ### getName 
 
 #### 获取名字 
-| 参数    | 类型    | 描述   | 
-| ---    | ---     | ---   | 
-| fristName | string | 名字   |
-| lastName | string | 姓氏   |
+| 参数      | 类型    | 描述   | 
+| ------   | ------ | ----   | 
+| fristName| string | 名字    |
+| lastName | string | 姓氏    |

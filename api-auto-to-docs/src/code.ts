@@ -4,7 +4,7 @@
  * @param {string} lastName 姓氏
  * @returns {string} 返回字符串
  */
- function getName(fristName: string, lastName: string) {
+ function getName(fristName: string, lastName: string): string{
   return lastName + fristName;
 }
 
@@ -13,7 +13,7 @@
  * @param {number} id 用户id
  * @returns {object} 返回用户详情
  */
- function getUserInfo(id: number) {
+ function getUserInfo(id: number): object {
   return {};
 }
 

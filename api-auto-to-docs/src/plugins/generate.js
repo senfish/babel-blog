@@ -1,5 +1,6 @@
 // format = markdown | json | html ...
 function generate(docs, format = 'markdown') {
+  console.log('docs', JSON.stringify(docs, null, 2));
   let str = '';
   docs.forEach(doc => {
     const {tags = []} = doc.doc || {};

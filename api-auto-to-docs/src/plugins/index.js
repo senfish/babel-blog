@@ -20,7 +20,7 @@ const autoDocumentPlugin = declare((api, options, dirname) => {
           params: path.get('params').map(paramPath => {
             return {
               name: paramPath.toString(), // 参数名字
-              type: resolveType(paramPath.getTypeAnnotation())
+              type: resolveType(paramPath.getTypeAnnotation().typeAnnotation)
             }
           }),
           return: resolveType(path.get('returnType').getTypeAnnotation()),
