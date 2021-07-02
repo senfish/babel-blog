@@ -1,6 +1,7 @@
 ## 利用babel-plugin实现特定函数自动埋点
 
   `cd auto-track && npm install`
+
   `npm run dev`
 ### 埋点规则
 

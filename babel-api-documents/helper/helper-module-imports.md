@@ -1,6 +1,6 @@
 首先，你需要安装help函数`npm install @babel/helper-module-imports --save`.
-
-此函数主要有四个方法
+作用：帮助生成`import`语句。
+主要有四个方法
 
 - [addDefault](#addDefault)（`import _hintName from 'source'`）
 - [addNamed](#addNamed)（`import { named as _hintedName } from "source";`）

@@ -4,7 +4,7 @@ babel学习笔记
 
 - [api自动生成文档](https://github.com/senfish/babel-blog/blob/master/api-auto-to-docs/README.md)
 - [自动埋点](https://github.com/senfish/babel-blog/blob/master/auto-track/README.md)
-
+- [自动国际化](https://github.com/senfish/babel-blog/blob/master/auto-i18n/README.md)
 ## babel-help函数
 
 - [@babel/helper-module-imports](https://github.com/senfish/babel-blog/blob/master/babel-api-documents/helper/helper-module-imports.md)
