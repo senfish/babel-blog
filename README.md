@@ -4,6 +4,7 @@ babel学习笔记
 
 - [api自动生成文档](https://github.com/senfish/babel-blog/blob/master/api-auto-to-docs/README.md)
 - [自动埋点](https://github.com/senfish/babel-blog/blob/master/auto-track/README.md)
+- [函数自动收集错误](https://github.com/senfish/babel-blog/blob/master/auto-api-tracking/README.md)
 - [自动国际化](https://github.com/senfish/babel-blog/blob/master/auto-i18n/README.md)
 ## babel-help函数
 
@@ -13,6 +14,12 @@ babel学习笔记
   babel-plugin帮助函数
 
 
-api.template.statement用法
+## 常见path的方法
 
-转载请注明出处
+
+
+未完，待续ing...
+
+
+
+

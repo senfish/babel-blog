@@ -1,6 +1,7 @@
 const {declare} = require('@babel/helper-plugin-utils');
 const imports = require('@babel/helper-module-imports');
 const {addDefault, addNamed, addNamespace, addSideEffect} = imports;
+
 const autoParametersInsertPlugin = declare((api, options, dirname) => {
   api.assertVersion(7);
   return {
