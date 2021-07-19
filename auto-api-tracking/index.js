@@ -4,7 +4,6 @@ const parser = require('@babel/parser');
 const {transformFromAstSync} = require('@babel/core');
 const sourceCode = fs.readFileSync(path.join(__dirname, 'source.jsx'), 'utf8');
 const autoApiTrackingPlugin = require('./plugin.js');
-console.log('autoApiTrackingPlugin', autoApiTrackingPlugin);
 const ast = parser.parse(sourceCode, {
   sourceType: 'module',
   plugins: ['jsx']

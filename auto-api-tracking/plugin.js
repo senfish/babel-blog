@@ -6,8 +6,6 @@ const types = require('@babel/types');
 
 const autoApiTrackingPlugin = declare((api, options) => {
   api.assertVersion(7);
-
-  console.log('options =====', options);
   return {
     visitor: {
       Program: {
@@ -41,7 +39,6 @@ const autoApiTrackingPlugin = declare((api, options) => {
         path.traverse({
           ArrowFunctionExpression(curPath) {
             if(!state.isTry) {
-              console.log('有try', requrestName, state.trackName);
               // 创建一个tryStatement
               const {body: originBody, generator, async, params} = curPath.node
               let template = api.template.statement(`${state.trackName}.add(err)`)();

@@ -1,5 +1,5 @@
 import _errorCenter2 from "error-center";
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react'; // import ErrorCenter from 'error-center';
 
 const getListDispatch = async () => {
   try {

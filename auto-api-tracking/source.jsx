@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+// import ErrorCenter from 'error-center';
 
 const getListDispatch = async () => {
   let a = 'aaa';
